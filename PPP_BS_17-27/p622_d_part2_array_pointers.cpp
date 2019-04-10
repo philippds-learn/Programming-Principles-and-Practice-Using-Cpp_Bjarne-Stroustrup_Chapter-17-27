@@ -13,8 +13,7 @@ void print_array(ostream& os, int* a, int n)
 }
 
 int main()
-{
-	
+{	
 	// Drill 1
 	int p = 7;
 	int* p1 = &p;
