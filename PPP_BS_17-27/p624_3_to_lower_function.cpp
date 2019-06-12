@@ -13,6 +13,8 @@ void to_lower(char* s)
 			s[i] += 'a' - 'A';
 		}
 	}
+
+	delete[] s;
 }
 
 void print_array(char* s)
@@ -22,6 +24,8 @@ void print_array(char* s)
 		cout << s[i];
 	}
 	cout << endl;
+	
+	delete[] s;
 }
 
 int main()
