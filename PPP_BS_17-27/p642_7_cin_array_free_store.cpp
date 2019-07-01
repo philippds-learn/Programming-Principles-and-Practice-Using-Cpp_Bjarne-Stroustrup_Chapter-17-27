@@ -44,8 +44,12 @@ int main()
 
 	while (cin >> ch && ch != '!')
 	{
+		// get count of old array and add an item
 		my_array = add(my_array);
+		// place letter into array
 		my_array[count] = ch;
+
+		// make sure last item in array is 0
 		count++;
 		my_array[count] = 0;
 	}
